@@ -4,7 +4,7 @@ export const Container = styled.div`
     margin-top:4rem;
     table{
         width:100%;
-        border-spacing:0.5rem;
+        border-spacing:0rem 0.5rem;
 
         th{
             color:var(--text-body);
@@ -12,6 +12,9 @@ export const Container = styled.div`
             padding:1rem 2rem;
             text-align:left;
             line-height:1.5rem;
+        }
+        tr{
+            margin-bottom:1rem;
         }
         td{
             padding: 1rem 2rem;
@@ -27,7 +30,7 @@ export const Container = styled.div`
             &.deposit{
                 color:var(--green);
             }
-            &.widthDraw{
+            &.withdraw{
                 color:var(--red);
             }
         }

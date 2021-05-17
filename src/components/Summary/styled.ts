@@ -4,7 +4,7 @@ export const Container = styled.div`
     display:grid;
     grid-template-columns:repeat(3,1fr);
     gap:2rem;
-    margin-top:-8rem;
+    margin-top:-6rem;
 
     div{
         background: var(--shape);
@@ -14,8 +14,8 @@ export const Container = styled.div`
 
         header{
             display:flex;
-            align-items:center;
-            justify-content:center;
+            align-items:flex-start;
+            justify-content:space-between;
         
         }
         strong{
