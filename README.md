@@ -1,6 +1,9 @@
 <h1>Gerenciador de finanças pessoal</h1>
 
-
+<div style="text-align:center">
+    <img align='center' src="./public/ignite.png">
+</div>
+<br>
 <img src="https://res.cloudinary.com/celsolnv/image/upload/v1622318837/gerenciador_pessoal/demo_km2lkb.gif" alt="demonstração">
 
 
